@@ -1,0 +1,21 @@
+
+
+<form action="link.php" method="post" >
+<pre>
+<div></div>
+ LINK <input type="text" name="link"class="ch">
+	<input type="text" name="name" id="n" style="display:none;">
+</pre>
+	 <input type="submit" value="SUBMIT" id="sub1">
+</form>
+<script type="text/javascript">
+	
+$(document).ready(function(){
+	
+document.getElementsByTagName('div')[0].innerHTML="Hi  &nbsp;"+kk;
+
+});
+
+document.getElementById('n').value=kk;
+
+	</script>
